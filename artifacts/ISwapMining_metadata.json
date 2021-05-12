@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "input",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "output",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "swap",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cattle.sol": "ISwapMining"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cattle.sol": {
+			"keccak256": "0x1c8d05aac2cf4cbea80ee4cddb36fde06adc811c5f592de62939b7f85b472a08",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://ffdf8dacd80339c71a1f64e5d13946e8f5889490cdc92a9f2eb0fe7b2d1ceb29",
+				"dweb:/ipfs/QmdNrbhBbZDK12ScDqY9XoQCioQ4sPs1igYC6JmoCZfhfq"
+			]
+		}
+	},
+	"version": 1
+}
